@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EndlessEngine", "EndlessEngine\EndlessEngine.vcxproj", "{D5282287-9B40-4A98-9DE0-11D5590741A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5282287-9B40-4A98-9DE0-11D5590741A4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D5282287-9B40-4A98-9DE0-11D5590741A4}.Debug|Win32.Build.0 = Debug|Win32
+		{D5282287-9B40-4A98-9DE0-11D5590741A4}.Release|Win32.ActiveCfg = Release|Win32
+		{D5282287-9B40-4A98-9DE0-11D5590741A4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
