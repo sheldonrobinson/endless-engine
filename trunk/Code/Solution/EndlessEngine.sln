@@ -1,7 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EndlessEngine", "EndlessEngine\EndlessEngine.vcxproj", "{3F598E56-872B-49E1-809A-54D2B7811A86}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EndLessMathLib", "..\EndLessMathLib\EndLessMathLib.vcxproj", "{0A2C1F16-16BA-4877-97A1-B22F096AEDB3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EndLessDemo", "..\EndLessDemo\EndLessDemo.vcxproj", "{E0341894-3B2B-49F6-AFC1-3BC9A3BCCBE7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A2C1F16-16BA-4877-97A1-B22F096AEDB3} = {0A2C1F16-16BA-4877-97A1-B22F096AEDB3}
+		{2F34FE59-B550-43FE-A3AF-F4534ED2FB98} = {2F34FE59-B550-43FE-A3AF-F4534ED2FB98}
+		{5C1B7D89-643C-45F6-8F70-3FCCC11B1142} = {5C1B7D89-643C-45F6-8F70-3FCCC11B1142}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EndLessRenderer", "..\EndLessRenderer\EndLessRenderer.vcxproj", "{2F34FE59-B550-43FE-A3AF-F4534ED2FB98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EndLessUtility", "..\EndLessUtility\EndLessUtility.vcxproj", "{5C1B7D89-643C-45F6-8F70-3FCCC11B1142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +20,22 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F598E56-872B-49E1-809A-54D2B7811A86}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3F598E56-872B-49E1-809A-54D2B7811A86}.Debug|Win32.Build.0 = Debug|Win32
-		{3F598E56-872B-49E1-809A-54D2B7811A86}.Release|Win32.ActiveCfg = Release|Win32
-		{3F598E56-872B-49E1-809A-54D2B7811A86}.Release|Win32.Build.0 = Release|Win32
+		{0A2C1F16-16BA-4877-97A1-B22F096AEDB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A2C1F16-16BA-4877-97A1-B22F096AEDB3}.Debug|Win32.Build.0 = Debug|Win32
+		{0A2C1F16-16BA-4877-97A1-B22F096AEDB3}.Release|Win32.ActiveCfg = Release|Win32
+		{0A2C1F16-16BA-4877-97A1-B22F096AEDB3}.Release|Win32.Build.0 = Release|Win32
+		{E0341894-3B2B-49F6-AFC1-3BC9A3BCCBE7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0341894-3B2B-49F6-AFC1-3BC9A3BCCBE7}.Debug|Win32.Build.0 = Debug|Win32
+		{E0341894-3B2B-49F6-AFC1-3BC9A3BCCBE7}.Release|Win32.ActiveCfg = Release|Win32
+		{E0341894-3B2B-49F6-AFC1-3BC9A3BCCBE7}.Release|Win32.Build.0 = Release|Win32
+		{2F34FE59-B550-43FE-A3AF-F4534ED2FB98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F34FE59-B550-43FE-A3AF-F4534ED2FB98}.Debug|Win32.Build.0 = Debug|Win32
+		{2F34FE59-B550-43FE-A3AF-F4534ED2FB98}.Release|Win32.ActiveCfg = Release|Win32
+		{2F34FE59-B550-43FE-A3AF-F4534ED2FB98}.Release|Win32.Build.0 = Release|Win32
+		{5C1B7D89-643C-45F6-8F70-3FCCC11B1142}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C1B7D89-643C-45F6-8F70-3FCCC11B1142}.Debug|Win32.Build.0 = Debug|Win32
+		{5C1B7D89-643C-45F6-8F70-3FCCC11B1142}.Release|Win32.ActiveCfg = Release|Win32
+		{5C1B7D89-643C-45F6-8F70-3FCCC11B1142}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
