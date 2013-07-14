@@ -55,7 +55,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>../../Bin/</AdditionalLibraryDirectories>
-      <AdditionalDependencies>EndlessRenderer_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>EndlessRenderer_d.lib;D3D11.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

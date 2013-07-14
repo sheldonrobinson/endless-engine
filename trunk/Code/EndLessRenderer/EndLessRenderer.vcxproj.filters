@@ -5,9 +5,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{71e62628-83bb-41cb-ab39-82289749eec8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Inc\Renderer.h" />
+    <ClInclude Include="Inc\EndLessRenderer.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RenderResource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Renderer.cpp" />
