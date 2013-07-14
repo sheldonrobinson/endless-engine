@@ -71,7 +71,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Inc\EndLessRenderer.h" />
     <ClInclude Include="Inc\Renderer.h" />
+    <ClInclude Include="Inc\RenderResource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Renderer.cpp" />
