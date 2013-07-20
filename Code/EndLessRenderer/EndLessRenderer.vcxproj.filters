@@ -8,15 +8,51 @@
     <Filter Include="Interface">
       <UniqueIdentifier>{71e62628-83bb-41cb-ab39-82289749eec8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="RenderCore">
+      <UniqueIdentifier>{74abc736-8f58-4568-b7f4-64ebae5f6492}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Inc\Renderer.h" />
-    <ClInclude Include="Inc\EndLessRenderer.h">
+    <ClInclude Include="Inc\EndlessRenderer.h">
       <Filter>Interface</Filter>
     </ClInclude>
-    <ClInclude Include="Inc\RenderResource.h" />
+    <ClInclude Include="Inc\Renderer.h">
+      <Filter>RenderCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RendererPublic.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\EndlessRenderObj.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\RenderObj.h">
+      <Filter>RenderCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\EndlessLight.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\LightBase.h">
+      <Filter>RenderCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\EndlessCamera.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\CameraBase.h">
+      <Filter>RenderCore</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Src\Renderer.cpp" />
+    <ClCompile Include="Src\Renderer.cpp">
+      <Filter>RenderCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CameraBase.cpp">
+      <Filter>RenderCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\LightBase.cpp">
+      <Filter>RenderCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\RenderObj.cpp">
+      <Filter>RenderCore</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
