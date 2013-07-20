@@ -15,4 +15,7 @@
       <UniqueIdentifier>{b90b65f9-5629-47c7-b276-5c51e297654a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\UtilityPublic.h" />
+  </ItemGroup>
 </Project>

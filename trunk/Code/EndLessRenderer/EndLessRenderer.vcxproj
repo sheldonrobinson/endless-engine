@@ -10,6 +10,23 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\CameraBase.h" />
+    <ClInclude Include="Inc\EndlessCamera.h" />
+    <ClInclude Include="Inc\EndlessLight.h" />
+    <ClInclude Include="Inc\EndlessRenderer.h" />
+    <ClInclude Include="Inc\EndlessRenderObj.h" />
+    <ClInclude Include="Inc\LightBase.h" />
+    <ClInclude Include="Inc\Renderer.h" />
+    <ClInclude Include="Inc\RendererPublic.h" />
+    <ClInclude Include="Inc\RenderObj.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\CameraBase.cpp" />
+    <ClCompile Include="Src\LightBase.cpp" />
+    <ClCompile Include="Src\Renderer.cpp" />
+    <ClCompile Include="Src\RenderObj.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2F34FE59-B550-43FE-A3AF-F4534ED2FB98}</ProjectGuid>
     <RootNamespace>EndLessRenderer</RootNamespace>
@@ -50,7 +67,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>Inc;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Inc;../EndLessMathLib/Inc;../EndLessUtility/Inc</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -63,6 +80,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>Inc;../EndLessMathLib/Inc;../EndLessUtility/Inc;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -70,14 +88,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Inc\EndLessRenderer.h" />
-    <ClInclude Include="Inc\Renderer.h" />
-    <ClInclude Include="Inc\RenderResource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Src\Renderer.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
